@@ -27,7 +27,7 @@ export default function Profile() {
   },[ongId])
 
   async function handleDeleteIncident (id){
-    alert("entrou em handleDeleteIncident");
+    
     try {
       await api.delete (`incidents/${id}`,{
         headers : {
